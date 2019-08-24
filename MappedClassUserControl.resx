@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelClass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="labelClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="labelClass.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelClass.Text" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="&gt;&gt;labelClass.Name" xml:space="preserve">
+    <value>labelClass</value>
+  </data>
+  <data name="&gt;&gt;labelClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelClass.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;labelClass.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxClass.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxClass.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="textBoxClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 20</value>
+  </data>
+  <data name="textBoxClass.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxClass.Name" xml:space="preserve">
+    <value>textBoxClass</value>
+  </data>
+  <data name="&gt;&gt;textBoxClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClass.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;textBoxClass.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxAllowBrowse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAllowBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 116</value>
+  </data>
+  <data name="checkBoxAllowBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="checkBoxAllowBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBoxAllowBrowse.Text" xml:space="preserve">
+    <value>Allow Browse</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAllowBrowse.Name" xml:space="preserve">
+    <value>checkBoxAllowBrowse</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAllowBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAllowBrowse.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAllowBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radGroupBoxTargets.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="listBoxMappedTargets.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="listBoxMappedTargets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 24</value>
+  </data>
+  <data name="listBoxMappedTargets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 277</value>
+  </data>
+  <data name="listBoxMappedTargets.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;listBoxMappedTargets.Name" xml:space="preserve">
+    <value>listBoxMappedTargets</value>
+  </data>
+  <data name="&gt;&gt;listBoxMappedTargets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBoxMappedTargets.Parent" xml:space="preserve">
+    <value>radGroupBoxTargets</value>
+  </data>
+  <data name="&gt;&gt;listBoxMappedTargets.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radButtonAddMappedTarget.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="radButtonAddMappedTarget.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radButtonAddMappedTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 310</value>
+  </data>
+  <data name="radButtonAddMappedTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="radButtonAddMappedTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="radButtonAddMappedTarget.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;radButtonAddMappedTarget.Name" xml:space="preserve">
+    <value>radButtonAddMappedTarget</value>
+  </data>
+  <data name="&gt;&gt;radButtonAddMappedTarget.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonAddMappedTarget.Parent" xml:space="preserve">
+    <value>radGroupBoxTargets</value>
+  </data>
+  <data name="&gt;&gt;radButtonAddMappedTarget.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radButtonRemoveMappedTarget.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="radButtonRemoveMappedTarget.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radButtonRemoveMappedTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 310</value>
+  </data>
+  <data name="radButtonRemoveMappedTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="radButtonRemoveMappedTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="radButtonRemoveMappedTarget.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemoveMappedTarget.Name" xml:space="preserve">
+    <value>radButtonRemoveMappedTarget</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemoveMappedTarget.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemoveMappedTarget.Parent" xml:space="preserve">
+    <value>radGroupBoxTargets</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemoveMappedTarget.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radGroupBoxTargets.HeaderText" xml:space="preserve">
+    <value>Mapped Targets</value>
+  </data>
+  <data name="radGroupBoxTargets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 155</value>
+  </data>
+  <data name="radGroupBoxTargets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 345</value>
+  </data>
+  <data name="radGroupBoxTargets.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radGroupBoxTargets.Text" xml:space="preserve">
+    <value>Mapped Targets</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxTargets.Name" xml:space="preserve">
+    <value>radGroupBoxTargets</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxTargets.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxTargets.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxTargets.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelCategory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 79</value>
+  </data>
+  <data name="labelCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="labelCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelCategory.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="&gt;&gt;labelCategory.Name" xml:space="preserve">
+    <value>labelCategory</value>
+  </data>
+  <data name="&gt;&gt;labelCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCategory.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;labelCategory.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelDisplay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 51</value>
+  </data>
+  <data name="labelDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelDisplay.Text" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.Name" xml:space="preserve">
+    <value>labelDisplay</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBoxCategory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 76</value>
+  </data>
+  <data name="textBoxCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 20</value>
+  </data>
+  <data name="textBoxCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.Name" xml:space="preserve">
+    <value>textBoxCategory</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBoxIsPolymorphic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxIsPolymorphic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 116</value>
+  </data>
+  <data name="checkBoxIsPolymorphic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="checkBoxIsPolymorphic.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBoxIsPolymorphic.Text" xml:space="preserve">
+    <value>IsPolymorphic</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsPolymorphic.Name" xml:space="preserve">
+    <value>checkBoxIsPolymorphic</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsPolymorphic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsPolymorphic.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsPolymorphic.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBoxDisplay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxDisplay.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 50</value>
+  </data>
+  <data name="textBoxDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 20</value>
+  </data>
+  <data name="textBoxDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.Name" xml:space="preserve">
+    <value>textBoxDisplay</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.Parent" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;textBoxDisplay.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="radGroupBoxClassProps.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radGroupBoxClassProps.HeaderText" xml:space="preserve">
+    <value>Class Properties</value>
+  </data>
+  <data name="radGroupBoxClassProps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radGroupBoxClassProps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 514</value>
+  </data>
+  <data name="radGroupBoxClassProps.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radGroupBoxClassProps.Text" xml:space="preserve">
+    <value>Class Properties</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxClassProps.Name" xml:space="preserve">
+    <value>radGroupBoxClassProps</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxClassProps.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxClassProps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radGroupBoxClassProps.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 514</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MappedClassUserControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

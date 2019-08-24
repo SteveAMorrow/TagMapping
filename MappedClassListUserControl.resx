@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radPageView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="radListViewMappedClasses2D.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="radListViewMappedClasses2D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radListViewMappedClasses2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 323</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radListViewMappedClasses2D.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radListViewMappedClasses2D.Text" xml:space="preserve">
+    <value>radListView1</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses2D.Name" xml:space="preserve">
+    <value>radListViewMappedClasses2D</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses2D.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadListView, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses2D.Parent" xml:space="preserve">
+    <value>radPageViewPage2D</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses2D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radPageViewPage2D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 30</value>
+  </data>
+  <data name="radPageViewPage2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 323</value>
+  </data>
+  <data name="radPageViewPage2D.Text" xml:space="preserve">
+    <value>2D</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2D.Name" xml:space="preserve">
+    <value>radPageViewPage2D</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2D.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2D.Parent" xml:space="preserve">
+    <value>radPageView</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radListViewMappedClasses3D.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radListViewMappedClasses3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radListViewMappedClasses3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 323</value>
+  </data>
+  <data name="radListViewMappedClasses3D.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radListViewMappedClasses3D.Text" xml:space="preserve">
+    <value>radListView1</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses3D.Name" xml:space="preserve">
+    <value>radListViewMappedClasses3D</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses3D.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadListView, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses3D.Parent" xml:space="preserve">
+    <value>radPageViewPage3D</value>
+  </data>
+  <data name="&gt;&gt;radListViewMappedClasses3D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radPageViewPage3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 30</value>
+  </data>
+  <data name="radPageViewPage3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 323</value>
+  </data>
+  <data name="radPageViewPage3D.Text" xml:space="preserve">
+    <value>3D</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage3D.Name" xml:space="preserve">
+    <value>radPageViewPage3D</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage3D.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage3D.Parent" xml:space="preserve">
+    <value>radPageView</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage3D.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radPageView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 45</value>
+  </data>
+  <data name="radPageView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 358</value>
+  </data>
+  <data name="radPageView.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;radPageView.Name" xml:space="preserve">
+    <value>radPageView</value>
+  </data>
+  <data name="&gt;&gt;radPageView.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageView, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radPageView.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;radPageView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radButtonCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="radButtonCopy.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radButtonCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 418</value>
+  </data>
+  <data name="radButtonCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="radButtonCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="radButtonCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;radButtonCopy.Name" xml:space="preserve">
+    <value>radButtonCopy</value>
+  </data>
+  <data name="&gt;&gt;radButtonCopy.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonCopy.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;radButtonCopy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="resource.ToolTipText" xml:space="preserve">
+    <value>Copy and create new class from selected class</value>
+  </data>
+  <data name="radButtonRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="radButtonRemove.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radButtonRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 418</value>
+  </data>
+  <data name="radButtonRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="radButtonRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="radButtonRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemove.Name" xml:space="preserve">
+    <value>radButtonRemove</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemove.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemove.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;radButtonRemove.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="resource.ToolTipText1" xml:space="preserve">
+    <value>Remove selected class</value>
+  </data>
+  <data name="buttonClearFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonClearFilter.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="buttonClearFilter.ImageKey" xml:space="preserve">
+    <value>Clear_2.ico</value>
+  </data>
+  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC2
+        CAAAAk1TRnQBSQFMAgEBAgEAAWgBAAFoAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/xYAArIB/y8AAboBsgH0
+        CwABsgGzAQkBsgH/ARksAALcAbILAAGyAfMBsgG6AbMBsgH/AbMBGSkAAtwBsgsAAbIBCQGyAQkBsgH0
+        ArIB/ykAAtwBsgoAARkEsgGzArIrAALcAbIKAAGzBrIrAAEZAtwB1AsAAfQBswOyAf8qAAEJBNwB1AkA
+        AbQBsgEJAQAB9AG0KgABCQHcBQkB1AcAARkBCQL/AbQBsioAAgkHGQHUAf8FAAG6A7IBCQH/KQACCQHU
+        AboBGQP/ARkBtAHbAdoB/wQAAboEsgH/KAABuwHbAf8JAAEJAdsEAAHzA7IB3CkAAbQC3AGyAQkB8wH/
+        AQAB/wH0AQkBswEZAdQFAAKyARksAAEJAbIB2wHcAxkB3AHUAbMB9AUAAfMBsgH/PQACsj4AAbIB9CsA
+        AUIBTQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAL/AfgB/wQAAf4BPwH4AR8EAAH+
+        AT8B+AEDBAAB/gE/AfgBAwQAAf4BPwHwAQ8EAAH+AT8B8AEfBAAB/AE/AfgBHwQAAfgBHwHxAT8EAAHw
+        AQ8B4AF/BAAB4AEDAeABfwQAAcABAQHgAX8EAAGPAfkB4AH/BAABgAGBAfEB/wQAAeABAwHjAf8EAAL/
+        AecB/wQAAv8B5wH/BAAL
+</value>
+  </data>
+  <data name="buttonClearFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 18</value>
+  </data>
+  <data name="buttonClearFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 24</value>
+  </data>
+  <data name="buttonClearFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonClearFilter.Name" xml:space="preserve">
+    <value>buttonClearFilter</value>
+  </data>
+  <data name="&gt;&gt;buttonClearFilter.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;buttonClearFilter.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;buttonClearFilter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resource.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACbSURBVDhPnZPRDYAgDETZyZ3cyQUcxjAJ8UMmwF7Ti0Ki
+        UF5sFOwdRWqo2GLJORcbTSAGGrOklNQA2NQEVkU8J0xYAUMun8kaHzHDtZ3WYD8unwH2TRFYaeaBIhhh
+        jL7QOQ8QLVzdAtjrf1phFSPo+TfCynQISdRv8LrrP2Im/e1IEpsKR8sKAJ77XSpJSOTqwNfaIqLQZj4I
+        4Qbdgvj2rRvgsgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="resource.ImageKey" xml:space="preserve">
+    <value>Clear_2.ico</value>
+  </data>
+  <data name="resource.ToolTipText2" xml:space="preserve">
+    <value>Clear filter</value>
+  </data>
+  <data name="buttonFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonFilter.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="buttonFilter.ImageKey" xml:space="preserve">
+    <value>Filter.ico</value>
+  </data>
+  <data name="buttonFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 18</value>
+  </data>
+  <data name="buttonFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 24</value>
+  </data>
+  <data name="buttonFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;buttonFilter.Name" xml:space="preserve">
+    <value>buttonFilter</value>
+  </data>
+  <data name="&gt;&gt;buttonFilter.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;buttonFilter.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;buttonFilter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.Image1" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhP3ZLRDcIwDESzU3fqTlmAYZAnifggExx5dSyC
+        aKuC+EB9kpXa8Z2TKum/uFzvStk0m9QW2e0Z5FMmTLVWdYkztyINBAYYlVIE7LMioo4BhpgtYsjmU6GX
+        dsGI/p46FH2C2qZPGSHnpAinrWFhEvdeCwasigMM+BdhNsbLvfegGZMxDosDjvu1OAgDPnrpM05gwINC
+        /Pb2f0dKD1b/HezYUfomAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="resource.ImageKey1" xml:space="preserve">
+    <value>Filter.ico</value>
+  </data>
+  <data name="resource.ToolTipText3" xml:space="preserve">
+    <value>Filter on entered text</value>
+  </data>
+  <data name="labelFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="labelFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="labelFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;labelFilter.Name" xml:space="preserve">
+    <value>labelFilter</value>
+  </data>
+  <data name="&gt;&gt;labelFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFilter.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;labelFilter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBoxFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="textBoxFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 20</value>
+  </data>
+  <data name="textBoxFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.Name" xml:space="preserve">
+    <value>textBoxFilter</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="radButtonNew.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="radButtonNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 418</value>
+  </data>
+  <data name="radButtonNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="radButtonNew.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="radButtonNew.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="&gt;&gt;radButtonNew.Name" xml:space="preserve">
+    <value>radButtonNew</value>
+  </data>
+  <data name="&gt;&gt;radButtonNew.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonNew.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;radButtonNew.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="resource.Text2" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="resource.ToolTipText4" xml:space="preserve">
+    <value>Create new class mapping</value>
+  </data>
+  <data name="radButtonSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="radButtonSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radButtonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 418</value>
+  </data>
+  <data name="radButtonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="radButtonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="radButtonSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;radButtonSave.Name" xml:space="preserve">
+    <value>radButtonSave</value>
+  </data>
+  <data name="&gt;&gt;radButtonSave.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonSave.Parent" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;radButtonSave.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="radGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radGroupBox.HeaderText" xml:space="preserve">
+    <value>Mapped Classes</value>
+  </data>
+  <data name="radGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 451</value>
+  </data>
+  <data name="radGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radGroupBox.Text" xml:space="preserve">
+    <value>Mapped Classes</value>
+  </data>
+  <data name="&gt;&gt;radGroupBox.Name" xml:space="preserve">
+    <value>radGroupBox</value>
+  </data>
+  <data name="&gt;&gt;radGroupBox.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2017.2.613.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 451</value>
+  </data>
+  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
+    <value>imageList</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MappedClassListUserControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
