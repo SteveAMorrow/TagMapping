@@ -1,0 +1,2093 @@
+{
+
+  "MappingsTagClass": [
+    {
+    "Section" : "Start of 3D (OPM) components"
+    },
+    {
+      "Source": "op3d:SKID_PUMP_PAR",
+      "Display" : "3D Parametric Horizontal Pump menu pick",
+      "Category" : "Pumps",
+      "MappedTargets" : [
+         "op:PUMP",
+         "op:DYNAMIC_PUMP",
+         "op:CENTRIFUGAL_PUMP",
+         "op:SKID_PUMP",
+         "op:POSITIVE_DISPLACEMENT_PUMP",
+         "op:RECIPROCATING_PUMP",
+         "op:ROTARY_PUMP"
+      ],
+      "IsPolymorphic" : false,
+    },
+    {
+      "Source": "op3d:SKID_PUMP_S",
+      "Display" : "3D Spec-Driven Horizontal Pump menu pick",
+      "Category" : "Pumps",
+      "MappedTargets" : [
+         "op:PUMP",
+         "op:DYNAMIC_PUMP",
+         "op:CENTRIFUGAL_PUMP",
+         "op:SKID_PUMP",
+         "op:POSITIVE_DISPLACEMENT_PUMP",
+         "op:RECIPROCATING_PUMP",
+         "op:ROTARY_PUMP"
+      ],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:VERTICAL_PUMP_PAR",
+      "Display" : "3D Parametric Vertical Pump menu pick",
+      "Category" : "Pumps",
+      "MappedTargets" : ["PUMP","op:VERTICAL_PUMP","op:VINLINE_PUMP"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:VINLINE_PUMP_PAR",
+      "Display" : "3D Parametric Vertical Inline Pump menu pick",
+      "Category" : "Pumps",
+      "MappedTargets" : ["op:PUMP", "op:VERTICAL_PUMP","op:VINLINE_PUMP"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:HORIZONTAL_VESSEL_PAR",
+      "Display" : "3D Horizontal Vessel menu pick",
+      "Category" : "Vessels",
+      "MappedTargets" : ["op:VESSEL","op:DRUM","op:HORIZONTAL_VESSEL"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:VERTICAL_VESSEL_PAR",
+      "Display" : "3D Vertical Vessel menu pick",
+      "Category" : "Vessels",
+      "MappedTargets" : ["op:VESSEL","op:DRUM"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:STORAGE_TANK_PAR",
+      "Display" : "3D Storage Tank menu pick",
+      "Category" : "Tanks",
+      "MappedTargets": ["op:STORAGE_TANK","op:TANK"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:SPHERICAL_TANK_PAR",
+      "Display" : "3D Spherical Storage Tank menu pick",
+      "Category" : "SphericalTanks",
+      "MappedTargets": ["op:SPHERICAL_TANK"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:REBOILER_PAR",
+      "Display" : "3D Parametric Reboiler menu pick",
+      "Category" : "HeatExchanger",
+      "MappedTargets": ["op:REBOILER" ,"op:HEAT_EXCHANGER","op:HEATING_AND_COOLING_FACILITIES"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:PLATE_TYPE_HEAT_EXCHANGER_PAR",
+      "Display" : "3D Plate Heat Exchanger menu pick",
+      "Category" : "HeatExchanger",
+      "MappedTargets": ["op:PLATE_TYPE_HEAT_EXCHANGER" ,"op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:DOUBLE_PIPE_HEAT_EXCHANGER_PAR",
+      "Display" : "3D Double Pipe Heat Exchanger menu pick",
+      "Category" : "HeatExchanger",
+      "MappedTargets": ["op:DOUBLE_PIPE_HEAT_EXCHANGER" ,"op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:SHELL_AND_TUBE_HEAT_EXCHANGER_PAR",
+      "Display" : "3D Shell Tube Heat Exchanger menu pick",
+      "Category" : "HeatExchanger",
+      "MappedTargets": ["op:SHELL_AND_TUBE_HEAT_EXCHANGER" ,"op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:ELECTRIC_BOILER",
+      "Display" : "3D Electric Boiler menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'ELECTRIC_BOILER' in 2D. Closest is 'HEAT_EXCHANGER'. There is a 'REBOILER',but that is not under BOILER"
+    },
+    {
+      "Source": "op3d:FIRED_BOILER",
+      "Display" : "3D Fired Boiler menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'FIRED_BOILER' in 2D. Closest is 'HEAT_EXCHANGER'. There is a 'REBOILER',but that is not under BOILER"
+    },
+    {
+      "Source": "op3d:WATERTUBE_BOILER",
+      "Display" : "3D Watertube Boiler menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'WATERTUBE_BOILER' in 2D. Closest is 'HEAT_EXCHANGER'. There is a 'REBOILER',but that is not under BOILER"
+    },
+    {
+      "Source": "op3d:AIRCOOLED_CHILLER",
+      "Display" : "3D AirCooled Chiller menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:AIRCOOLED_CHILLER","op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'AIRCOOLED_CHILLER' in 2D. Closest is 'HEAT_EXCHANGER'."
+    },
+    {
+      "Source": "op3d:EVAPORATIVE_CHILLER",
+      "Display" : "3D Evaporative Chiller menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:EVAPORATIVE_CHILLER","op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'EVAPORATIVE_CHILLER' in 2D. Closest is 'HEAT_EXCHANGER'."
+    },
+    {
+      "Source": "op3d:WATERCOOLED_CHILLER",
+      "Display" : "3D WaterCooled Chiller menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:WATERCOOLED_CHILLER","op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'WATERCOOLED_CHILLER' in 2D. Closest is 'HEAT_EXCHANGER'."
+    },
+    {
+      "Source": "op3d:SURFACE_CONDENSER",
+      "Display" : "3D Condenser menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:SURFACE_CONDENSER","op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'SURFACE_CONDENSER' in 2D. Closest is 'HEAT_EXCHANGER'"
+    },
+    {
+      "Source": "op3d:COOLING_TOWER",
+      "Display" : "3D Cooling Tower menu pick",
+      "Category" : "HeatingAndCooling",
+      "MappedTargets": ["op:COOLING_TOWER","op:HEAT_EXCHANGER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'WATERTUBE_BOILER' in 2D. Closest is 'HEAT_EXCHANGER'."
+    },
+    {
+      "Source": "op3d:SCRUBBER",
+      "Display" : "3D Scrubber menu pick",
+      "Category" : "Miscellaneous",
+      "MappedTargets": ["op:SEPARATOR"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'SCRUBBER' in 2D. Closest is 'SEPARATOR'. "
+    },
+    {
+      "Source": "op3d:HOPPER",
+      "Display" : "3D Hopper menu pick",
+      "Category" : "Vessels",
+      "MappedTargets" : ["op:VESSEL","op:DRUM","op:HORIZONTAL_VESSEL","op:TANK","op:STORAGE_TANK","op:TOWER"],
+      "IsPolymorphic" : false,
+      "Remarks"  : "There is no 'HOPPER' in 2D. Closest is the 'Vessels' target group which contains all the Vessels."
+    },
+    {
+      "Source": "op3d:CENTRIFUGAL_UTILITY_FAN",
+      "Display" : "3D Centrifugal Utility Fan menu pick",
+      "Category" : "Fans",
+      "MappedTargets" :
+      [ 
+          "op:FAN",
+          "op:CENTRIFUGAL_INLINE_ROUND_FAN",
+          "op:CENTRIFUGAL_UPBLAST_EXHAUST_VENTILATOR",
+          "op:CENTRIFUGAL_UTILITY_FAN",
+          "op:ROOF_UPBLAST_FAN"
+      ],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:CENTRIFUGAL_UPBLAST_EXHAUST_VENTILATOR",
+      "Display" : "3D Centrifugal Upblast Exhaust Ventilator menu pick",
+      "Category" : "Fans",
+      "MappedTargets" :
+      [ 
+          "op:FAN",
+          "op:CENTRIFUGAL_INLINE_ROUND_FAN",
+          "op:CENTRIFUGAL_UPBLAST_EXHAUST_VENTILATOR",
+          "op:CENTRIFUGAL_UTILITY_FAN",
+          "op:ROOF_UPBLAST_FAN"
+      ],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:ROOF_UPBLAST_FAN",
+      "Display" : "3D Roof Up-Blast Fan menu pick",
+      "Category" : "Fans",
+      "MappedTargets" :
+      [ 
+          "op:FAN",
+          "op:CENTRIFUGAL_INLINE_ROUND_FAN",
+          "op:CENTRIFUGAL_UPBLAST_EXHAUST_VENTILATOR",
+          "op:CENTRIFUGAL_UTILITY_FAN",
+          "op:ROOF_UPBLAST_FAN",
+          "op:ROTATING_EQUIPMENT",
+      ],
+      "IsPolymorphic" : false,
+      "Comment" : "should ROTATING_EQUIPMENT be in here?,in PID ROTATING_EQUIPMENT is the base class for CONVEYOR,COMPRESSOR,MIXER... "
+    },
+    
+    {
+      "Source": "op3d:GATE_VALVE",
+      "Display" : "3D Gate valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:GATE_VALVE"],
+      "IsPolymorphic" : false,
+      
+      "Comment_FilterByProperty" : "Use the property names of FilterByProperty to get a property value. This property value is then used to match the value in the standard preference dialog",
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION",
+    },
+    {
+     "Source": "op3d:KNIFE_GATE_VALVE",
+     "Display" : "3D Knife Gate valve menu pick",
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:KNIFE_GATE_VALVE"],
+     "IsPolymorphic" : false,
+     "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION",     
+    },    
+    {
+      "Source": "op3d:BALL_VALVE",
+      "Display" : "3D Ball valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:BALL_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION",
+    },
+    {
+      "Source": "op3d:GLOBE_VALVE",
+      "Display" : "3D Globe valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:GLOBE_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION",
+    },
+    {
+      "Source": "op3d:BUTTERFLY_VALVE",
+      "Display" : "3D Butterfly valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:BUTTERFLY_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:NEEDLE_VALVE",
+      "Display" : "3D Needle valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:NEEDLE_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:PLUG_VALVE",
+      "Display" : "3D Plug valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:PLUG_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:DIAPHRAGM_VALVE",
+      "Display" : "3D Diaphragm valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:DIAPHRAGM_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },   
+    {
+      "Source": "op3d:PINCH_VALVE",
+      "Display" : "3D Pinch valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:PINCH_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:Y_HY_GLOBE_VALVE",
+      "Display" : "3D Y Globe valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:Y_HY_GLOBE_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:RELIEF_VALVE",
+      "Display" : "3D Relief valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:RELIEF_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:FLAP_VALVE",
+      "Display" : "3D Flap valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:FLAP_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:MUD_VALVE",
+      "Display" : "3D Mud valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:MUD_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:FLOAT_VALVE",
+      "Display" : "3D Float valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:FLOAT_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:AIR_RELEASE_VALVE",
+      "Display" : "3D Air Release valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:AIR_RELEASE_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:MULTISTAGE_VALVE",
+      "Display" : "3D Multistage Air valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:MULTISTAGE_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:WAFER_CHECK_VALVE",
+      "Display" : "3D Wafer valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:WAFER_CHECK_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },    
+    {
+      "Source": "op3d:BALL_CHECK_VALVE",
+      "Display" : "3D Ball check valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:BALL_CHECK_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },        
+    
+    {
+      "Source": "op3d:ANGLE_VALVE",
+      "Display" : "3D Angle valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:ANGLE_VALVE"],
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:THREE_WAY_VALVE",
+      "Display" : "3D Three way valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:THREE_WAY_VALVE"],
+      "IsPolymorphic" : true,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:FOUR_WAY_VALVE",
+      "Display" : "3D Four way valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:FOUR_WAY_VALVE"],
+      "IsPolymorphic" : true,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+      "Source": "op3d:CHECK_VALVE",
+      "Display" : "3D Check valve menu pick",
+      "Category" : "Valves",
+      "MappedTargets": ["op:CHECK_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },
+    {
+     "Source": "op3d:STOP_CHECK_VALVE",
+     "Display" : "3D stop check valve" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:STOP_CHECK_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER,SPECIFICATION"
+    },    
+    
+    {
+      "Source": "op3d:CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:CONTROL_VALVE"],
+      "IsPolymorphic" : false,
+      "xxFilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:GATE_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:GATE_CONTROL_VALVE"],
+      
+      "Comment_IsPolymorphic"  : "Must be set to true because of class hierarchy. Control valves have two base classes: INSTRUMENT and VALVE",
+      "IsPolymorphic" : true, 
+      
+      "Comment_FilterByProperty"  : "Cannot have SPECIFICATION in filter query because of class hierarchy, SPECIFICATION is not in INSTRUMENT class",
+      "Comment_FilterByProperty1" : "To have SPECIFICATION in filter, set cfg m_useFilterByPropertyInQuery=0, this is because it builds up a list of properties for dual class hierarchies",
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:BALL_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:BALL_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:BUTTERFLY_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:BUTTERFLY_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:CHECK_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:CHECK_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:GLOBE_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:GLOBE_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },    
+    {
+      "Source": "op3d:MOTOR_OPERATED_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:MOTOR_OPERATED_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:PLUG_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:PLUG_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:SELF_ACTUATED_PRESSURE_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:SELF_ACTUATED_PRESSURE_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:SOLENOID_CONTROL_VALVE",
+      "Display" : "3D Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:SOLENOID_CONTROL_VALVE"],      
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    }, 
+    {
+      "Source": "op3d:ANGLE_CONTROL_VALVE",
+      "Display" : "3D Angle Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:ANGLE_CONTROL_VALVE"],
+      "IsPolymorphic" : false,
+      "FilterByProperty" : "NOMINAL_DIAMETER"
+    },
+    {
+      "Source": "op3d:GENERIC_INSTRUMENT",
+      "Display" : "Generic Instrument",
+      "Category" : "Instruments",
+      "MappedTargets": ["op:GENERIC_INSTRUMENT"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:SIGHT_GLASS",
+      "Display" : "Sight Glass",
+      "Category" : "Instruments",
+      "MappedTargets": ["op:GENERIC_INSTRUMENT"],
+      "IsPolymorphic" : false
+    },    
+    {
+      "Source": "op3d:PULSATION_DAMPER",
+      "Display" : "Pulsation Damper",
+      "Category" : "Piping Component",
+      "MappedTargets": ["op:PULSATION_DAMPER"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:UNIT",
+      "Display" : "Unit",
+      "Category" : "WBS",
+      "MappedTargets": ["op:UNIT"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:SYSTEM",
+      "Display" : "System",
+      "Category" : "WBS",
+      "MappedTargets": ["op:SYSTEM"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:SERVICE",
+      "Display" : "Service",
+      "Category" : "WBS",
+      "MappedTargets": ["op:SERVICE"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:PLANT",
+      "Display" : "Plant",
+      "Category" : "WBS",
+      "MappedTargets": ["op:PLANT"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:PLANT_AREA",
+      "Display" : "Plant Area",
+      "Category" : "WBS",
+      "MappedTargets": ["op:PLANT_AREA"],
+      "IsPolymorphic" : false
+    },
+    {
+      "Source": "op3d:PIPING_NETWORK_SYSTEM",
+      "Display" : "Piping Network System",
+      "Category" : "Piping",
+      "MappedTargets": ["op:PIPING_NETWORK_SYSTEM"],
+      "IsPolymorphic" : false,
+      
+      "Comment" : "PropertyMatchRelationship is required to get Correct properties updated from relationship. Example NOMINAL_DIAMETER.",
+      "PropertyMatchRelationship" : "PIPELINE_HAS_SEGMENT",
+      "Comment" : "These properties will be updated from the relationship match which in this case should be PIPING_NETWORK_SEGMENT",
+      "PropertyMatches" : ["NOMINAL_DIAMETER"],
+
+    },
+    {
+      "Source": "op3d:NOZZLE",
+      "Display" : "Nozzle",
+      "Category" : "Nozzle",
+      "MappedTargets": ["op:NOZZLE"],
+      "MatchedRelationships" : ["EQUIPMENT_HAS_NOZZLE"],
+      "MatchRelationshipRequired" : true,
+      "IsPolymorphic" : false
+    },
+    
+    {
+      "Source": "op3d:FLOW_METER",
+      "Display" : "Flow Meter",
+      "Category" : "Instrument",
+      "MappedTargets": ["op:FLOW_ELEMENT"],
+      "IsPolymorphic" : true,
+      
+      "Comment" : "Uses the match: NOMINAL_DIAMETER=SIZE. This is done because the FLOW_METER does not have the NOMINAL_DIAMETER property",
+      "Comment1" : "FLOW_METER does have SIZE Property. Still needs NOMINAL_DIAMETER to get current value from Standard Preferences",
+      "FilterByProperty" : "NOMINAL_DIAMETER=SIZE",
+    },
+    
+    {
+    "Section" : "Start of 2D (OPPID) components"
+    },
+    {
+     "Source": "oppid:GATE_VALVE",
+     "Display" : "GATE_VALVE",
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:GATE_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:GLOBE_VALVE",
+     "Display" : "GLOBE_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:GLOBE_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:BUTTERFLY_VALVE",
+     "Display" : "BUTTERFLY_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:BUTTERFLY_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:NEEDLE_VALVE",
+     "Display" : "NEEDLE_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:NEEDLE_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:BALL_VALVE",
+     "Display" : "BALL_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:BALL_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:ROTARY_VALVE",
+     "Display" : "ROTARY_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:ROTARY_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:PLUG_VALVE",
+     "Display" : "PLUG_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:PLUG_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:DIAPHRAGM_VALVE",
+     "Display" : "DIAPHRAGM_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:DIAPHRAGM_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:PINCH_VALVE",
+     "Display" : "PINCH_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:PINCH_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:KNIFE_GATE_VALVE",
+     "Display" : "KNIFE_GATE_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:KNIFE_GATE_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:ANGLE_VALVE",
+     "Display" : "ANGLE_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:ANGLE_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:THREE_WAY_VALVE",
+     "Display" : "THREE_WAY_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:THREE_WAY_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:FOUR_WAY_VALVE",
+     "Display" : "FOUR_WAY_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:FOUR_WAY_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:CHECK_VALVE",
+     "Display" : "CHECK_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:CHECK_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:STOP_CHECK_VALVE",
+     "Display" : "STOP_CHECK_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:STOP_CHECK_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:INLINE_CONTROL_VALVE",
+     "Display" : "INLINE_CONTROL_VALVE" ,
+     "Category" : "Control Valves",
+     "MappedTargets" : [ "op:INLINE_CONTROL_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:ANGLE_CONTROL_VALVE",
+     "Display" : "ANGLE_CONTROL_VALVE" ,
+     "Category" : "Control Valves",
+     "MappedTargets" : [ "op:ANGLE_CONTROL_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:THREE_WAY_CONTROL_VALVE",
+     "Display" : "THREE_WAY_CONTROL_VALVE" ,
+     "Category" : "Control Valves",
+     "MappedTargets" : [ "op:THREE_WAY_CONTROL_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:FOUR_WAY_CONTROL_VALVE",
+     "Display" : "FOUR_WAY_CONTROL_VALVE" ,
+     "Category" : "Control Valves",
+     "MappedTargets" : [ "op:FOUR_WAY_CONTROL_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+      "Source": "oppid:GATE_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:GATE_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    },
+    {
+      "Source": "oppid:BALL_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:BALL_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    },
+    {
+      "Source": "oppid:BUTTERFLY_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:BUTTERFLY_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,            
+    },
+    {
+      "Source": "oppid:CHECK_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:CHECK_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    },
+    {
+      "Source": "oppid:GLOBE_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:GLOBE_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    },    
+    {
+      "Source": "oppid:COCK_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:COCK_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    },
+    {
+      "Source": "oppid:PLUG_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:PLUG_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    },
+    {
+      "Source": "oppid:NEEDLE_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:NEEDLE_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    },
+    {
+      "Source": "oppid:PINCH_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:PINCH_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,          
+    },    
+    {
+      "Source": "oppid:PLUG_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:PLUG_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,      
+    }, 
+    {
+      "Source": "oppid:ROTARY_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:ROTARY_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,            
+    }, 
+    {
+      "Source": "oppid:DIAPHRAM_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:DIAPHRAM_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,           
+    },     
+    {
+      "Source": "oppid:GENERAL_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:GENERAL_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,            
+    },    
+    {
+      "Source": "oppid:STOP_CHECK_CONTROL_VALVE",
+      "Display" : "Control valve menu pick",
+      "Category" : "Control Valves",
+      "MappedTargets": ["op:STOP_CHECK_CONTROL_VALVE"],      
+      "IsPolymorphic" : true,            
+    },         
+    {
+     "Source": "oppid:ANGLE_PRESSURE_SAFETY_VALVE",
+     "Display" : "ANGLE_PRESSURE_SAFETY_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:ANGLE_PRESSURE_SAFETY_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:INLINE_PRESSURE_SAFETY_VALVE",
+     "Display" : "INLINE_PRESSURE_SAFETY_VALVE" ,
+     "Category" : "Valves",
+     "MappedTargets" : [ "op:INLINE_PRESSURE_SAFETY_VALVE"],
+     "IsPolymorphic" : true
+    },
+    {
+      "Source": "oppid:HORIZONTAL_CENTRIFUGAL_PUMP",
+      "Display" : "2D Horizontal Centrifugal menu pick",
+      "Category" : "Pumps",
+      "IsPolymorphic" : true,
+      "MappedTargets" : ["op:SKID_PUMP","op:PUMP"],
+      "Comments" : "IsPolymorphic = true and op:PUMP must set to get all valid classes from the query"
+    },
+    {
+      "Source": "oppid:VERTICAL_CENTRIFUGAL_PUMP",
+      "Display" : "2D Vertical Centrifugal menu pick",
+      "Category" : "Pumps",
+      "IsPolymorphic" : false,
+      "MappedTargets" : ["op:PUMP"]
+    },
+    {
+     "Source" : "oppid:POSITIVE_DISPLACEMENT_PUMP",
+     "Display" : "POSITIVE_DISPLACEMENT_PUMP",
+     "Category" : "Pumps",
+     "MappedTargets" : [ "op:POSITIVE_DISPLACEMENT_PUMP"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INLINE_PUMP",
+     "Display" : "INLINE_PUMP",
+     "Category" : "Pumps",
+     "MappedTargets" : [ "op:PUMP"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:CENTRIFUGAL_PUMP",
+     "Display" : "CENTRIFUGAL_PUMP",
+     "Category" : "Pumps",
+     "MappedTargets" : [ "op:CENTRIFUGAL_PUMP"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SUMP_PUMP",
+     "Display" : "SUMP_PUMP",
+     "Category" : "Pumps",
+     "MappedTargets" : [ "op:PUMP"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:VERTICAL_CAN_CENTRIFUGAL_PUMP",
+     "Display" : "VERTICAL_CAN_CENTRIFUGAL_PUMP",
+     "Category" : "Pumps",
+     "MappedTargets" : [ "op:CENTRIFUGAL_PUMP"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:PROGRESSIVE_CAVITY_PUMP",
+     "Display" : "PROGRESSIVE_CAVITY_PUMP",
+     "Category" : "Pumps",
+     "MappedTargets" : [ "op:CENTRIFUGAL_PUMP"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SCREW_PUMP",
+     "Display" : "SCREW_PUMP",
+     "Category" : "Pumps",
+     "MappedTargets" : [ "op:PUMP"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:CENTRIFUGAL_BLOWER_HORIZONTAL",
+     "Display" : "CENTRIFUGAL_BLOWER_HORIZONTAL",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:BLOWER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:CENTRIFUGAL_BLOWER_VERTICAL",
+     "Display" : "CENTRIFUGAL_BLOWER_VERTICAL",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:BLOWER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BLOWER",
+     "Display" : "BLOWER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:BLOWER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TURBO_COMPRESSOR",
+     "Display" : "TURBO_COMPRESSOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:COMPRESSOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:POSITIVE_DISPLACEMENT_COMPRESSOR",
+     "Display" : "POSITIVE_DISPLACEMENT_COMPRESSOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:COMPRESSOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:RECIPROCATING_COMPRESSOR",
+     "Display" : "RECIPROCATING_COMPRESSOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:COMPRESSOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SCREW_COMPRESSOR",
+     "Display" : "SCREW_COMPRESSOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:COMPRESSOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:PISTON_COMPRESSOR",
+     "Display" : "PISTON_COMPRESSOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:COMPRESSOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:VACUUM_PUMP",
+     "Display" : "VACUUM_PUMP",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:ELECTRIC_MOTOR",
+     "Display" : "ELECTRIC_MOTOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:MOTOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TURBINE",
+     "Display" : "TURBINE",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:MOTOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DIESEL_ENGINE",
+     "Display" : "DIESEL_ENGINE",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:MOTOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:PID_VESSEL_PARAMETRIC_GENERIC",
+     "Display" : "PID_VESSEL_PARAMETRIC_GENERIC",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:CONE_ROOF_TANK",
+     "Display" : "CONE_ROOF_TANK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DOME_ROOF_TANK",
+     "Display" : "DOME_ROOF_TANK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:OPEN_TOP_STORAGE_TANK",
+     "Display" : "OPEN_TOP_STORAGE_TANK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INTERNAL_FLOAT_ROOF_TANK",
+     "Display" : "INTERNAL_FLOAT_ROOF_TANK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:EXTERNAL_FLOAT_ROOF_TANK",
+     "Display" : "EXTERNAL_FLOAT_ROOF_TANK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DOUBLE_WALL_TANK",
+     "Display" : "DOUBLE_WALL_TANK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SPHERICAL_TANK",
+     "Display" : "SPHERICAL_TANK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:SPHERICAL_TANK"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TOWER",
+     "Display" : "TOWER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:TOWER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:FURNACE",
+     "Display" : "FURNACE",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:FURNACE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DRUM",
+     "Display" : "DRUM",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:DRUM","op:VESSEL"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TEMA_EXCHANGER_BEM",
+     "Display" : "TEMA_EXCHANGER_BEM",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TEMA_EXCHANGER_BEU",
+     "Display" : "TEMA_EXCHANGER_BEU",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TEMA_EXCHANGER_AEM",
+     "Display" : "TEMA_EXCHANGER_AEM",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TEMA_EXCHANGER_AEL",
+     "Display" : "TEMA_EXCHANGER_AEL",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TEMA_EXCHANGER_NEN",
+     "Display" : "TEMA_EXCHANGER_NEN",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TEMA_EXCHANGER_BKU",
+     "Display" : "TEMA_EXCHANGER_BKU",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:AIR_COOLED_HEAT_EXCHANGER",
+     "Display" : "AIR_COOLED_HEAT_EXCHANGER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DOUBLE_PIPE_HEAT_EXCHANGER",
+     "Display" : "DOUBLE_PIPE_HEAT_EXCHANGER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:PLATE_TYPE_HEAT_EXCHANGER",
+     "Display" : "PLATE_TYPE_HEAT_EXCHANGER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SPIRAL_TYPE_HEAT_EXCHANGER",
+     "Display" : "SPIRAL_TYPE_HEAT_EXCHANGER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEAT_EXCHANGER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:FAN",
+     "Display" : "FAN",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:FAN"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:HEATER",
+     "Display" : "HEATER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:HEATER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:EVAPORATOR",
+     "Display" : "EVAPORATOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:EVAPORATOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BAG_HOUSE",
+     "Display" : "BAG_HOUSE",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:BAG_HOUSE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:CARTRIDGE_FILTER",
+     "Display" : "CARTRIDGE_FILTER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:CARTRIDGE_FILTER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:ROTARY_DRUM_FILTER",
+     "Display" : "ROTARY_DRUM_FILTER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:FILTER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:LIQUID_FILTER",
+     "Display" : "LIQUID_FILTER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:FILTER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:FILTER_PRESS",
+     "Display" : "FILTER_PRESS",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:SEPARATOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BAG_FILTER",
+     "Display" : "BAG_FILTER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:SEPARATOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BASKET_STRAINER",
+     "Display" : "BASKET_STRAINER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:STRAINER"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BELT_CONVEYOR",
+     "Display" : "BELT_CONVEYOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SCREW_CONVEYOR",
+     "Display" : "SCREW_CONVEYOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BUCKET_ELEVATOR",
+     "Display" : "BUCKET_ELEVATOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:FORKLIFT_TRUCK",
+     "Display" : "FORKLIFT_TRUCK",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:FORKLIFT_TRUCK"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BOWL_CLASSIFIER",
+     "Display" : "BOWL_CLASSIFIER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DRAG_CLASSIFIER",
+     "Display" : "DRAG_CLASSIFIER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:RAKE_CLASSIFIER",
+     "Display" : "RAKE_CLASSIFIER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SPIRAL_CLASSIFIER",
+     "Display" : "SPIRAL_CLASSIFIER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:PROPELLER_AGITATOR",
+     "Display" : "PROPELLER_AGITATOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:FLAT_PADDLE_AGITATOR",
+     "Display" : "FLAT_PADDLE_AGITATOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DISPERSING_AGITATOR",
+     "Display" : "DISPERSING_AGITATOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:ANCHOR_AGITATOR",
+     "Display" : "ANCHOR_AGITATOR",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:EXTRUDER",
+     "Display" : "EXTRUDER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:CYCLONE",
+     "Display" : "CYCLONE",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:SEPARATOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SCALE",
+     "Display" : "SCALE",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:THICKENER",
+     "Display" : "THICKENER",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:SEPARATOR"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:MILL",
+     "Display" : "MILL",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:CRUSHING_MACHINES"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:BOWL_CENTRIFUGE",
+     "Display" : "BOWL_CENTRIFUGE",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:ROTATING_EQUIPMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:MANWAY",
+     "Display" : "MANWAY",
+     "Category" : "Equipment",
+     "MappedTargets" : [ "op:MANWAY"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:MAJOR_PIPELINE",
+     "Display" : "MAJOR_PIPELINE",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:MINOR_PIPELINE",
+     "Display" : "MINOR_PIPELINE",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:EXISTING_MAJOR_PIPELINE",
+     "Display" : "EXISTING_MAJOR_PIPELINE",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:EXISTING_MINOR_PIPELINE",
+     "Display" : "EXISTING_MINOR_PIPELINE",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:TRACING_PIPELINE",
+     "Display" : "TRACING_PIPELINE",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:FUEL_PIPING_SYSTEM",
+     "Display" : "FUEL_PIPING_SYSTEM",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:STEAM_PIPING_SYSTEM",
+     "Display" : "STEAM_PIPING_SYSTEM",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DISCHARGE_PIPING_SYSTEM",
+     "Display" : "DISCHARGE_PIPING_SYSTEM",
+     "Category" : "Pipelines",
+     "MappedTargets" : [ "op:PIPING_NETWORK_SYSTEM"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:STANDARD_NOZZLE",
+     "Display" : "STANDARD_NOZZLE",
+     "Category" : "Nozzle",
+     "MappedTargets" : [ "op:NOZZLE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:SINGLE_NOZZLE",
+     "Display" : "SINGLE_NOZZLE",
+     "Category" : "Nozzle",
+     "MappedTargets" : [ "op:NOZZLE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:DOUBLE_NOZZLE",
+     "Display" : "DOUBLE_NOZZLE",
+     "Category" : "Nozzle",
+     "MappedTargets" : [ "op:NOZZLE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:COUPLING_NOZZLE",
+     "Display" : "COUPLING_NOZZLE",
+     "Category" : "Nozzle",
+     "MappedTargets" : [ "op:NOZZLE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:COUPLER_NOZZLE",
+     "Display" : "COUPLER_NOZZLE",
+     "Category" : "Nozzle",
+     "MappedTargets" : [ "op:NOZZLE"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INSTRUMENT_PARAMETRIC",
+     "Display" : "INSTRUMENT_PARAMETRIC",
+     "Category" : "Instruments",
+     "MappedTargets" : [ "op:INSTRUMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INSTRUMENT_DISCRETE",
+     "Display" : "INSTRUMENT_DISCRETE",
+     "Category" : "Instruments",
+     "MappedTargets" : [ "op:INSTRUMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INSTRUMENT_DISTRIBUTED_ANALOG",
+     "Display" : "INSTRUMENT_DISTRIBUTED_ANALOG",
+     "Category" : "Instruments",
+     "MappedTargets" : [ "op:INSTRUMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INSTRUMENT_DISTRIBUTED_DIGITAL",
+     "Display" : "INSTRUMENT_DISTRIBUTED_DIGITAL",
+     "Category" : "Instruments",
+     "MappedTargets" : [ "op:INSTRUMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INSTRUMENT_INTERLOCK",
+     "Display" : "INSTRUMENT_INTERLOCK",
+     "Category" : "Instruments",
+     "MappedTargets" : [ "op:INSTRUMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source" : "oppid:INSTRUMENT_PILOTLIGHT",
+     "Display" : "INSTRUMENT_PILOTLIGHT",
+     "Category" : "Instruments",
+     "MappedTargets" : [ "op:INSTRUMENT"],
+     "IsPolymorphic" : true
+    },
+    {
+     "Source": "oppid:OFFPAGE_CONNECTOR",
+     "AllowBrowse" : false
+    },
+    {
+     "Source": "oppid:SIGNAL_CONNECTOR_SYMBOL",
+     "AllowBrowse" : false
+    }
+  ],
+  
+  "TaggingScopes": [
+    {
+      "COMMENT" : "These items are classes as defined in the Tagging schema. They are used to query Classes for the conssistency checker."
+    },
+    {
+      "Name" : "EQUIPMENT",
+      "Display" : "Equipment",
+    },
+    {
+      "Name" : "PIPING_NETWORK_SYSTEM",
+      "Display" : "Piping System"
+    },    
+    {
+      "Name" : "FLUID_REGULATOR",
+      "Display" : "Valves",
+      //"GroupByPropertyNode": "NOMINAL_DIAMETER"
+    },
+    {
+      "Name" : "NOZZLE",
+      "Display" : "Nozzles"
+    },
+    {
+      "Name" : "INSTRUMENT",
+      "Display" : "Instruments",
+      "Comment"  : "The property value defined will be used as grouping filter in the tree display. This is parent inwhich nodes will be grouped under.",
+      "GroupByPropertyNode" : "DEVICE_TYPE_CODE"
+    },
+    
+    {
+      "Name" : "HVAC_NETWORK_SYSTEM",
+      "Display" : "Hvac"
+    },  
+    
+    {
+      "Name" : "TRAY_NETWORK_SYSTEM",
+      "Display" : "Raceway"
+    },
+    {
+      "Name" :  "PLANT_AREA",
+      "Display"  : "Area",
+      "Comment"  : "Types: WBS,Document,Element,Segment.",
+      "Enabled"  : false,
+      "ItemType" : "WBS"
+    },
+    {
+      "Name" : "UNIT",
+      "Display" : "Unit",
+      "Comment"  : "Types: WBS,Document,Element,Segment.",
+      "Enabled"  : false,
+      "ItemType" : "WBS"      
+    },
+    {
+      "Name" : "SERVICE",
+      "Display" : "Service",
+      "Comment"  : "Types: WBS,Document,Element,Segment.",
+      "Enabled"  : false,
+      "ItemType" : "WBS"      
+    },   
+    {
+      "Name" : "SYSTEM",
+      "Display" : "System",
+      "Enabled"  : false,
+      "ItemType" : "WBS"      
+    },
+    {
+      "Name" : "DOCUMENT",
+      "Display" : "Document",
+      "Comment"  : "Types: WBS,Document,Element,Segment.",
+      "ItemType" : "Document",
+      "Document2DClass" : "PID_DOCUMENT",
+      "Relationships"    : "Document_Is_Related_To_Object",
+      "Enabled" : false
+    },
+    {
+      "Name" : "PIPING_NETWORK_SEGMENT",
+      "Display" : "Piping Network Segment",
+      "Enabled"  : false,
+      "ItemType" : "Segment",
+      "OnlyDisplayAsChild" : true
+    },    
+    
+    ],
+    
+  "ConsistencyNeededRelationships": [
+    {
+     "Display" : "Service",
+     "Name" : "SERVICE_IS_RELATED_TO_NAMED_ITEM"
+    },
+    {
+     "Display" : "Unit",
+     "Name" : "UNIT_HAS_NAMED_ITEM"
+    },
+    {
+     "Display" : "Area",
+     "Name" : "PLANT_AREA_HAS_NAMED_ITEM"
+    },
+    {
+     "Display" : "Document",
+     "Name" : "Document_Is_Related_To_Object"
+    },  
+    {
+     "Display" : "Equipment Has Nozzle",
+     "Name" : "EQUIPMENT_HAS_NOZZLE",
+    },      
+    
+    {
+     "Display"      : "Pipeline Has Segment",
+     "Name"         : "PIPELINE_HAS_SEGMENT",
+     
+     "Comment"      : "This is used to get get segments. Pipeline->Run->Components. Nests query to get graph tree for getrelationships ",
+     "SubQuery"     : "SEGMENT_HAS_PIPING_COMPONENT",
+    },
+
+  ],
+  
+  "ConsistencyProperties": [
+    {
+         "Name" : "CompareOptions",
+         "Display" : "Compare Options",
+         
+         "Comment" : "Show items that match and have an empty value (empty strings, no value,...)",
+         "ShowPropertiesThatHaveAnEmptyMatch" : false,
+         
+         "Comment" : "When checking properties values, ignore upper or lower case",
+         "IgnoreCase" : true,
+
+         "Comment" : "When checking property values ignore ? value",
+         "IgnoreQuestionMark" : true,
+         
+         "Comment" : "Prompt when committing changes to iModel",
+         "PromptForPropertyChangeCommit" : true
+
+    },    
+    {
+         "Name" : "QueryProperties",
+         "Display" : "Query Properties",
+    },
+
+    {
+        "Name" : "ExcludeProperties",
+        "Display" : "Excluded these properties from checks",
+        "Properties": [
+        "ADDITIONAL_CODE",
+        "ALARM_LIMIT_HH",
+        "ALARM_LIMIT_LL",
+        "ALARM_RANGE",
+        "ALARM_SET_POINT",
+        "ALARM_TYPE",
+        "ALIAS",
+        "ALLOWABLE_BACK_PRESSURE",
+        "ALLOWABLE_OVERPRESSURE_PERCENTAGE",
+        "ALTERNATIVE_NAME",
+        "AMBIENT_OPERATING_PRESSURE",
+        "AMBIENT_OPERATING_TEMPERATURE",
+        "ANGLE",
+        "AREAID",
+        "BACKPLANE_ADDRESS",
+        "BOLT_TP",
+        "BULK_DENSITY",
+        "BURST_PRESSURE",
+        "CABINET_ID",
+        "CAGE_CODE",
+        "CALIBRATED_RANGE",
+        "CALIBRATION_DATA_REQUIREMENTS",
+        "CAPACITY",
+        "CAPACITY_VOLUME_FLOW_RATE",
+        "CARD_RACK_ID",
+        "CELL_LIBRARY",
+        "CELL_SYMBOL",
+        "CENTER_TO_CENTER_LENGTH",
+        "COMPONENT_CLASSIFICATION",
+        "COMPONENT_NUMBER",
+        "CONNECTION_SPAN",
+        "CONNECTION_TYPE",
+        "CONTACT_GAP",
+        "CONTRACT_NUMBER",
+        "CONTROLLER_ID",
+        "CREATE_TIMESTAMP",
+        "DATA_TYPE",
+        "DCS_KEYWORD",
+        "DCS_TAG_DESCRIPTION",
+        "DCS_TAG_IDENTIFICATION_CODE",
+        "DEADBAND_RANGE",
+        "DEPTH",
+        "DESIGN_LENGTH_CENTER_TO_BRANCH_END",
+        "DESIGN_LENGTH_CENTER_TO_OUTLET_END",
+        "DESIGN_LENGTH_CENTER_TO_RUN_END",
+        "DESIGN_LENGTH_END_TO_END",
+        "DESIGN_PRESSURE",
+        "DESIGN_SIZE",
+        "DESIGN_SPECIFICATION",
+        "DesignState",
+        "DESIGN_TEMPERATURE",
+        "DESIGN_THICKNESS_OF_FLANGED_END",
+        "DIAMETER",
+        "DIRECTION",
+        "DRAWN_BY_DATE",
+        "DRAWN_BY_NAME",
+        "DRUM",
+        "DRY_WEIGHT",
+        "ELECTRICAL_PROTECTION",
+        "END_PREPARATION",
+        "END_TO_END_LENGTH",
+        "END_DIAMETER",
+        "EQUIPMENT_UNIT_CLASSIFICATION",
+        "EQUIPMENT_UNIT_CODE",
+        "ESTIMATED_LENGTH",
+        "FABRICATION_CATEGORY",
+        "FAIL_MODE",
+        "FERRULE",
+        "FIELD_CONTACT",
+        "FILE_NAME",
+        "FILE_PATH",
+        "FLAME_DETECTOR_FIELD_OF_VIEW_ANGLE",
+        "FLAME_DETECTOR_RESPONSE_DISTANCE",
+        "FLATS",
+        "FLOW_RATE",
+        "FLOW_RATE_AT_NORMAL_FLOW",
+        "FLUID_DESCRIPTION",
+        "FLUID_PHASE",
+        "FROM_COMPONENT",
+        "GENERAL_TYPE",
+        "GLASS_TYPE",
+        "GRADE",
+        "HEAD_CONNECTION_TYPE",
+        "HEAD_TYPE",
+        "HEAT_DUTY",
+        "HEAT_FLOW_RATE_AT_T_AND_P",
+        "HEAT_TRANSFER_AREA",
+        "HEIGHT",
+        "HOUSING_MATERIAL",
+        "HUB_DEPTH",
+        "HUB_WIDTH",
+        "INLET_PRESSURE",
+        "INNER_DIAMETER",
+        "INPUT_DESCRIPTION_CLOSED",
+        "INPUT_DESCRIPTION_OPEN",
+        "INPUT_LIMIT_H",
+        "INPUT_NORMAL_STATE",
+        "INPUT_SIGNAL",
+        "INSIDE_DIAMETER",
+        "INSIDE_SURFACE_AREA",
+        "INSTRUMENT_PROCESS_CONNECTION_TYPE",
+        "INSULATION_THICKNESS",
+        "INTERFACE_TYPE",
+        "INTERLOCK",
+        "INTRINSICALLY_SAFE_INSTALLATION",
+        "IO_CHANNEL_ADDRESS",
+        "IO_CHANNEL_PRIORITY",
+        "IO_GROUPING",
+        "IO_TYPE",
+        "IP_ADDRESS",
+        "IsTagReserved",
+        "KEYTAG",
+        "LANGUAGE",
+        "LENGTH",
+        "E_LENGTH",
+        "CABLE_LENGTH",
+        "LENGTH_BASE_TO_CENTRELINE",
+        "LENGTH_SADDLE_TO_SADDLE",
+        "LENGTH_TAN_TAN",
+        "LENGTH_TAN_TO_SADDLE",
+        "LINENUMBER",
+        "LINK_LABEL",
+        "LOCATION",
+        "LOCATION_X",
+        "LOCATION_Y",
+        "LOWER_LIMIT_DESIGN_PRESSURE",
+        "LOWER_LIMIT_OPERATING_PRESSURE",
+        "LOWER_LIMIT_OPERATING_TEMPERATURE",
+        "LOWER_LIMIT_OUTPUT_PULSE_DURATION",
+        "LOWER_LIMIT_OUTPUT_SIGNAL",
+        "MAIN_DIAMETER",
+        "MAIN_HEIGHT",
+        "MAIN_WIDTH",
+        "MASS_FLOW_RATE",
+        "MASS_FRACTION",
+        "MATERIAL_MARK",
+        "MAXIMUM_PRESSURE",
+        "MEMORY_ADDRESS",
+        "MINIMUM_OPERATING_TEMPERATURE",
+        "MODEL",
+        "NETWORK_MODULE",
+        "NETWORK_NODE_NUMBER",
+        "NETWORK_NUMBER",
+        "NOMINAL_DESIGN_TEMPERATURE",
+        "NOMINAL_DIAMETER_BRANCH_END",
+        "NOMINAL_DIAMETER_REDUCING_END",
+        "NOMINAL_LENGTH",
+        "NOMINAL_OUTSIDE_DIAMETER",
+        "NORMAL_MASS_FLOWRATE",
+        "NORMAL_OPERATING_PRESSURE",
+        "NORMAL_OPERATING_TEMPERATURE",
+        "NOTES",
+        "NUMBER_IN_PARALLEL",
+        "NUMBER_IN_SERIES",
+        "NUMBER_KKS",
+        "NUMBER_OF_45_DEGREE_ELBOWS",
+        "NUMBER_OF_90_DEGREE_ELBOWS",
+        "NUMBER_OF_ELBOWS",
+        "NUMBER_OF_VALVES",
+        "OffModel",
+        "OffNotes",
+        "OnModel",
+        "OnNotes",
+        "OPERATING_PRESSURE",
+        "OPERATING_TEMPERATURE",
+        "OPERATING_TEMPERATURE_RANGE",
+        "OPERATING_VOLTAGE",
+        "OPERATOR",
+        "ORDER_NUMBER",
+        "ORIENTATION",
+        "OUTLET_DIAMETER",
+        "OUTLET_PRESSURE",
+        "OUTPUT_DIRECTION",
+        "OUTPUT_MINIMUM_PULSE_DURATION",
+        "OUTPUT_SIGNAL",
+        "OUTPUT_TYPE",
+        "OUTSIDE_DIAMETER",
+        "OUTSIDE_DIAMETER_OF_FLANGED_END",
+        "OWNER",
+        "PID_NUMBER",
+        "PAINT_CODE",
+        "PATTERN",
+        "PIPE_FLANGE_TYPE",
+        "PIPE_LINE_NUMBER",
+        "PIPE_TAG_NUMBER",
+        "PLANT",
+        "PORT_SEQUENCE_NUMBER",
+        "PROJECT_STATUS",
+        "PSDS_SPECIFIC_PROPERTY_INSTANCE_ID",
+        "PUMP_DISPLACEMENT",
+        "RATED_OUTPUT_POWER",
+        "RATED_VOLTAGE",
+        "REDUCED_PRESSURE",
+        "REDUNDANCY_REQUIREMENTS",
+        "EQUIPMENT_PLANT",
+        "EQUIPMENT_SYSTEM",
+        "PIPING_PLANT",
+        "PIPING_SYSTEM",
+        "REPEATABILITY",
+        "REQUISITION_NUMBER",
+        "RESPONSE_TIME",
+        "REVISION",
+        "REVISION_NUMBER",
+        "RPM",
+        "RUPTURING_DISC_AREA",
+        "SCALE_LENGTH",
+        "SCREW_TORQUE_RANGE",
+        "SECTION_DIAMETER",
+        "SEGMENT_ADDRESS",
+        "SEGMENT_TERMINATOR",
+        "SERIES",
+        "SET_POINT",
+        "SIDE_MOUNTED",
+        "SIMULATION_CASE_NAME",
+        "SIMULATION_NAME",
+        "START_DIAMETER",
+        "STARTING_TIME",
+        "STEAM_RATING",
+        "STOCK_NUMBER",
+        "STORAGE_TEMPERATURE_RANGE",
+        "STREAM_NUMBER",
+        "SUB_SLOT_ID",
+        "SUB_TYPE",
+        "SUBSTATION_ID",
+        "SUBTITLE",
+        "SUPPLIER",
+        "SYSTEM",
+        "TAG_CODE",
+        "TAIL_CONNECTION_TYPE",
+        "TECHNICAL_REFERENCE",
+        "TEMPERATURE",
+        "TEMPERATURE_DROP",
+        "TEST_PRESSURE",
+        "THICKNESS",
+        "TITLE",
+        "TO_COMPONENT",
+        "TOTAL_WEIGHT",
+        "TRACING",
+        "TRUE_VAPOR_PRESSURE",
+        "TUBE_LENGTH",
+        "U_FACTOR",
+        "UNIT_NUMBER",
+        "UPPER_LIMIT_DESIGN_PRESSURE",
+        "UPPER_LIMIT_DESIGN_TEMPERATURE",
+        "UPPER_LIMIT_OPERATING_PRESSURE",
+        "UPPER_LIMIT_OPERATING_TEMPERATURE",
+        "UPPER_LIMIT_OUTPUT_SIGNAL",
+        "UPPER_LIMIT_OVERPRESSURE_PROTECTION",
+        "UPPER_LIMIT_PRESSURE",
+        "VAPOUR_PRESSURE",
+        "VISCOSITY",
+        "VOLTAGE",
+        "VOLUME_FLOW_RATE",
+        "WALL_THICKNESS",
+        "WEIGHED_DRY_WEIGHT",
+        "WEIGHED_OPERATING_WEIGHT",
+        "WEIGHT",
+        "WIDTH",
+        "WIRE_NUMBER",
+        "ZERO_ADJUSTMENT"
+      ],
+              
+    },
+    
+    {
+        "Name" : "ProhibitPropertyUpdate",
+        "Display" : "Display but do not allow update",
+        "Properties": [
+        "SPECIFICATION",
+        "DESIGNER",
+        "PLANT_AREA",
+        "PLANT_NAME",
+        "UNIT",
+        "SERVICE",
+        "UNIT_NAME",
+        "SERVICE_NAME",
+        "SYSTEM",
+        "SYSTEM_NAME",
+        "COMPONENT_NAME",
+        "EC_CLASS_NAME",
+        "SECTION_NAME",
+        "SIMULATION_NAME",
+        "ALTERNATIVE_NAME"
+      ],
+    },
+    
+    {
+      "Name": "AllowPropertyUpdate",
+      "Display" : "Allow property update even in if OpenPlant3DCatalogueAttributeProperties = true or ProhibitPropertyUpdate = true",
+        "Properties": [
+        "ADESCRIPTION",
+      ],
+    },   
+    
+    {
+    "Name" : "PropertyIssues",
+    "Display" : "Property Issues",
+        "Issues": [
+        
+            //examples of using am internal resource string
+            {"Name": "PLANT_AREA", "ResourceKey" : "IssueDisplayMsg"},
+            {"Name": "SERVICE", "ResourceKey" : "IssueDisplayMsg"},
+            {"Name": "UNIT", "ResourceKey" : "IssueDisplayMsg" },
+            {
+              "Name": "NAME",
+              "Display": "\nThe Tag Number must be modified from the Edit Properties Dialog.\nTo change, Check out the Tag number, then edit the value from the Standard Preferences dialog.",
+            },                                   
+        ]
+    }    
+  ],
+
+  "TagDisplayAttributes": [
+    {
+     "Name" : "PlacedIn2D",
+     "Display" : "Placed in 2D",
+     "Description" : "Placed in a P&ID drawing display attributes",
+     "Comment" : "View colors: https://en.wikipedia.org/wiki/Web_colors",
+     "Color" : "Green",
+     "Bold" : false,
+     "Italic" : false,
+     "Underline" : false,
+     "Strikeout" : false
+    },
+    {
+     "Name" : "PlacedIn3D",
+     "Display" : "Placed in 3D",
+     "Description" : "Placed in a 3D Physical Model display attributes",
+     "Color" : "Green",
+     "Bold" : false,
+     "Italic" : false,
+     "Underline" : false,
+     "Strikeout" : false
+    },
+    {
+     "Name" : "ActiveModel",
+     "Display" : "Placed in Active Model",
+     "Description" : "Placed in currently opened Active Model display attributes",
+     "Color" : "Green",
+     "Bold" : true,
+     "Italic" : false,
+     "Underline" : false,
+     "Strikeout" : false
+    },
+    {
+     "Name" : "NotPlaced",
+     "Display" : "Not placed",
+     "Description" : "Not placed in any document or model",
+     "Color" : "Crimson",
+     "Bold" : false,
+     "Italic" : false,
+     "Underline" : false,
+     "Strikeout" : false
+    },
+    {
+     "Name" : "PropertyDifferences",
+     "Display" : "Property Differences",
+     "Description" : "Property Differences found",
+     "Color" : "Crimson",
+     "Bold" : true,
+     "Italic" : true,
+     "Underline" : true,
+     "Strikeout" : false
+    },   
+    {
+     "Name" : "WBS",
+     "Display" : "WBS",
+     "Description" : "WBS tree node display attributes",
+     "Color" : "Green",
+     "Bold" : false,
+     "Italic" : false,
+     "Underline" : false,
+     "Strikeout" : false
+    },
+    {
+     "Name" : "Document",
+     "Display" : "Document",
+     "Description" : "Document tree node display attributes",
+     "Color" : "Green",
+     "Bold" : false,
+     "Italic" : false,
+     "Underline" : false,
+     "Strikeout" : false
+    },
+    {
+     "Name" : "ClassHeader",
+     "Display" : "Parent Class",
+     "Description" : "Color of Class header display",
+     "Color" : "Blue",
+     "Bold" : false,
+     "Italic" : false,
+     "Underline" : false,
+     "Strikeout" : false
+    },
+    {
+     "Name" : "DisplayOptions",
+     "Display" : "Common options",
+     "Description" : "Tree display options",
+     
+     "Comment" : "Show in Class Hierarchy from code scope in display: Class,WBS,Document",
+     "TreeHierarchy" : "Class",
+     
+     "ExpandNodes" : true,
+     "Comment" : "If there are more then specified nodes the expand is turned off",
+     "ThresholdExpandCount" : 300,
+     "ShowNodeCount" : false,
+     "UseECProperties" : false,
+     "WBSNodeDisplayUnderSingleClass" : false,
+     "UseDeferRefresh" : true,
+     "TreeFilterListLimit" : 15,
+     
+     "Comment" : "Show Pipe Run Segments",
+     "ShowPiperunSegments" : false,
+     
+     "Comment" : "If the instance is part of a relationship, then do no show as a top level tree node",
+     "HideInTreefItemPartakesInaRelationship" : true,
+    }
+  ],
+  
+  "ConsistencyReportsOptions": [
+    {
+     "Name" : "Options",
+     "Display" : "Consistency Reports Options",
+     "FileNameBase" : "ConsistencyReport",
+     "SelectFolderLocation" : false,
+     "UseCurrentDgnAsFileName" : false,
+     "UserDirectory" : "c:\\MyFolder",
+     "ReportType" : "PropertyDifferences"   
+    },
+    {   
+     "Name" : "Xml",
+     "Display" : "Xml Reports Options",
+     "UserDirectory" : "c:\\MyFolder\\xml",    
+     "ShowInRibbon" : false,
+     "ShowInMenu" : false
+    },
+    {   
+     "Name" : "Txt",
+     "Display" : "Txt Reports Options",
+     "UserDirectory" : "c:\\MyFolder\\txt",
+     "ShowInRibbon" : true,
+     "ShowInMenu" : true
+    },
+    {   
+     "Name" : "Html",
+     "Display" : "Html Reports Options",
+     "UserDirectory" : "c:\\MyFolder\\html",
+     "HtmlDifferenceTableStyle" : "table,th,td { border: 1px solid black; border-collapse: collapse; background-color: #eee; text-align: left;}",
+     "ShowInRibbon" : true,
+     "ShowInMenu" : true
+    },   
+    {   
+     "Name" : "Json",    
+     "Display" : "Json Reports Options",
+     "UserDirectory" : "c:\\MyFolder\\json",
+     "ShowInRibbon" : false,
+     "ShowInMenu" : false
+    }     
+    
+ ]  
+}
